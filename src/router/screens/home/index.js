@@ -4,7 +4,9 @@ import React from 'react';
 const HomeScreen = () => {
   return (
     <SafeAreaView style={styles.root}>
-      <Text>HomeScreen</Text>
+      <View style={styles.header}>
+        <Text>Campus Orient</Text>
+      </View>
     </SafeAreaView>
   );
 };
@@ -14,5 +16,11 @@ export default HomeScreen;
 const styles = StyleSheet.create({
   root: {
     //
+  },
+
+  header: {
+    display: 'flex',
+    alignItems: 'center',
+    justify: 'center',
   },
 });
