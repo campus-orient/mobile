@@ -7,7 +7,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <RouteStack />
-      <StatusBar backgroundColor={'#000'} />
+      <StatusBar backgroundColor={'black'} />
     </NavigationContainer>
   );
 };
